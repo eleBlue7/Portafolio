@@ -8,11 +8,11 @@ export default function Projects() {
       description:
         "Aplicación móvil desarrollada en Flutter que permite registrar productos y precios por voz o texto, conectada a Firebase. Ideal para las personas que deseen tener registro de sus compras de los distintos recintos de venta. La aplicacion guarda a detalles las 'boletas' de cada compra, con dia y hora, productos, precios y total gastado.",
       images: [
-        "src/assets/fotitosproyectos/addupfast!/auf1.jpeg",
-        "src/assets/fotitosproyectos/addupfast!/auf2.jpeg",
-        "src/assets/fotitosproyectos/addupfast!/auf3.jpeg",
-        "src/assets/fotitosproyectos/addupfast!/auf4.jpeg",
-        "src/assets/fotitosproyectos/addupfast!/auf5.jpeg",
+        "public/fotitosproyectos/addupfast!/auf1.jpeg",
+        "public/fotitosproyectos/addupfast!/auf2.jpeg",
+        "public/fotitosproyectos/addupfast!/auf3.jpeg",
+        "public/fotitosproyectos/addupfast!/auf4.jpeg",
+        "public/fotitosproyectos/addupfast!/auf5.jpeg",
       ],
       tech: ["Flutter", "Dart", "Firebase", "Speech-to-Text"],
     },
