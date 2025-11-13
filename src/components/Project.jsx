@@ -6,21 +6,27 @@ import { useState, useEffect, useRef } from "react";
 
 
 
+import auf1 from '/img/auf1.jpeg';
+import auf2 from '/img/auf2.jpeg';
+import auf3 from '/img/auf3.jpeg';
+import auf4 from '/img/auf4.jpeg';
+import auf5 from '/img/auf5.jpeg';
+
 export default function Projects() {
   const projects = [
     {
       title: "AddUpFast! - (Etapa beta)",
-      description:
-        "Aplicación móvil desarrollada en Flutter que permite registrar productos y precios por voz o texto, conectada a Firebase. Ideal para las personas que deseen tener registro de sus compras de los distintos recintos de venta. La aplicacion guarda a detalles las 'boletas' de cada compra, con dia y hora, productos, precios y total gastado.",
+      description: "Aplicación móvil desarrollada en Flutter...",
       images: [
-        "dist/img/auf1.jpeg",
-        "dist/img/auf2.jpeg",
-        "dist/img/auf3.jpeg",
-        "dist/img/auf4.jpeg",
-        "dist/img/auf5.jpeg",
+        auf1,  // ✅ Importadas correctamente
+        auf2,
+        auf3,
+        auf4, 
+        auf5,
       ],
       tech: ["Flutter", "Dart", "Firebase", "Speech-to-Text"],
     },
+  
     {
       title: "furry",
       description:
